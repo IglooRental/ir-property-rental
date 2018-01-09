@@ -8,6 +8,6 @@ WORKDIR /app
 
 ADD ./target/ir-property-rental-1.0.0-SNAPSHOT.jar /app
 
-EXPOSE 8080
+EXPOSE 8082
 
 CMD ["java", "-jar", "ir-property-rental-1.0.0-SNAPSHOT.jar"]
