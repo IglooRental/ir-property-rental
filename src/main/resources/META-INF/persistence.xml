@@ -3,6 +3,8 @@
     <persistence-unit name="ir-property-rental-jpa" transaction-type="RESOURCE_LOCAL">
         <non-jta-data-source>jdbc/IRpropertyrentalDS</non-jta-data-source>
 
+        <class>si.uni_lj.fri.rso.ir_property_rental.models.PropertyRental</class>
+
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <!-- <property name="javax.persistence.schema-generation.database.action" value="none"/> -->
